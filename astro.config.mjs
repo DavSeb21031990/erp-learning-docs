@@ -14,7 +14,7 @@ export default defineConfig({
 				{
 					label: 'Guias',
 					items: [
-						{ label: 'SDKMAN', slug: 'guides/example' },
+						{ label: 'SDKMAN', slug: 'guias/sdkman' },
 					],
 				}
 			],
