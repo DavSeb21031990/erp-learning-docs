@@ -15,8 +15,14 @@ export default defineConfig({
 					label: 'Guias',
 					items: [
 						{ label: 'SDKMAN', slug: 'guias/sdkman' },
+						{
+							label: 'Java',
+							items: [
+								{ label: 'Nuevas Caracteristicas', slug: 'guias/java/new-features' }
+							],
+						}
 					],
-				}
+				},
 			],
 		}),
 	],
