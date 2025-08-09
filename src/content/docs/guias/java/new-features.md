@@ -1,7 +1,8 @@
 ---
-title: 'Nuevas caracteristicas de Java 21',
+title: 'Nuevas caracteristicas de Java 21'
 description: 'Guia con las nuevas caracteristicas de Java 21'
 ---
+
 ## Pattern Matching para switch (Preview → Stable)
 ```java title="Ejemplo con Java 8 - Java 17"
 public String processObject(Object obj) {
