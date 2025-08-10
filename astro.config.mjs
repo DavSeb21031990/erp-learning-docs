@@ -38,40 +38,74 @@ export default defineConfig({
 							]
 						},
 						{
-							label: 'Java',
+							label: 'Backend',
 							items: [
-								{ label: 'Nuevas Caracteristicas', slug: 'guias/java/new-features' }
-							],
+								{
+									label: 'Java',
+									items: [
+										{ label: 'Nuevas Caracteristicas', slug: 'guias/backend/java/new-features' }
+									],
+								},
+								{
+									label: 'Node.js',
+									items: [
+										{
+											label: 'Fundamental Concepts',
+											items: [
+												{ label: 'Event Loop', slug: 'guias/backend/node/fundamental-concepts/event-loop' },
+												{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/backend/node/fundamental-concepts/node-lts-vs-node-current' },
+												{ label: 'Package.json', slug: 'guias/backend/node/fundamental-concepts/package' },
+												{ label: 'Node_modules', slug: 'guias/backend/node/fundamental-concepts/node-modules' }
+											]
+										},
+										{
+											label: 'Sintaxis',
+											items: [
+												{ label: 'Environment', slug: 'guias/backend/node/sintaxis/environment' },
+												{ label: 'Management Exceptions', slug: 'guias/backend/node/sintaxis/management-exceptions' }
+											]
+										},
+										{
+											label: 'Middlewares',
+											items: [
+												{ label: 'Introducción', slug: 'guias/backend/node/middelware/introduction' }
+											]
+										},
+										{
+											label: 'Express',
+											items: [
+												{ label: 'Introducción', slug: 'guias/backend/node/express/introduction' }
+											]
+										}
+									]
+								}
+							]
 						},
 						{
-							label: 'Node.js',
+							label: 'Frontend',
 							items: [
 								{
-									label: 'Fundamental Concepts',
+									label: 'Astro',
 									items: [
-										{ label: 'Event Loop', slug: 'guias/node/fundamental-concepts/event-loop' },
-										{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/fundamental-concepts/node-lts-vs-node-current' },
-										{ label: 'Package.json', slug: 'guias/node/fundamental-concepts/package' },
-										{ label: 'Node_modules', slug: 'guias/node/fundamental-concepts/node-modules' }
+										{ label: 'Introducción', slug: 'guias/frontend/astro/introduction' },
 									]
 								},
 								{
-									label: 'Sintaxis',
+									label: 'Angular',
 									items: [
-										{ label: 'Environment', slug: 'guias/node/sintaxis/environment' },
-										{ label: 'Management Exceptions', slug: 'guias/node/sintaxis/management-exceptions' }
+										{ label: 'Introducción', slug: 'guias/frontend/angular/introduction' },
+									]
+								},
+							{
+									label: 'React',
+									items: [
+										{ label: 'Introducción', slug: 'guias/frontend/react/introduction' },
 									]
 								},
 								{
-									label: 'Middlewares',
+									label: 'Vue',
 									items: [
-										{ label: 'Introducción', slug: 'guias/node/middelware/introduction' }
-									]
-								},
-								{
-									label: 'Express',
-									items: [
-										{ label: 'Introducción', slug: 'guias/node/express/introduction' }
+										{ label: 'Introducción', slug: 'guias/frontend/vue/introduction' },
 									]
 								}
 							]
