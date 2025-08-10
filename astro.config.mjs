@@ -25,6 +25,7 @@ export default defineConfig({
 							label: 'Gestor de Versiones',
 							items: [
 								{ label: 'SDKMAN', slug: 'guias/management-versions/sdkman' },
+								{ label: 'NVM', slug: 'guias/management-versions/nvm' }
 							]
 						},
 						{
@@ -41,6 +42,13 @@ export default defineConfig({
 							items: [
 								{ label: 'Nuevas Caracteristicas', slug: 'guias/java/new-features' }
 							],
+						},
+						{
+							label: 'Node.js',
+							items: [
+								{ label: 'Event Loop', slug: 'guias/node/event-loop' },
+								{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/node-LTS-vs-node-current' }
+							]	
 						}
 					],
 				},
