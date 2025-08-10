@@ -14,7 +14,19 @@ export default defineConfig({
 				{
 					label: 'Guias',
 					items: [
-						{ label: 'SDKMAN', slug: 'guias/sdkman' },
+						{
+							label: 'Gestor de Versiones',
+							items: [
+								{ label: 'SDKMAN', slug: 'guias/management-versions/sdkman' },
+							]
+						},
+						{
+							label: 'Gestor de Dependencias',
+							items: [
+								{ label: 'Maven vs Gradle', slug: 'guias/management-dependencies/maven-vs-gradle' },
+								{ label: 'Gradle Wrapper', slug: 'guias/management-dependencies/gradle-wrapper' },
+							]
+						},
 						{
 							label: 'Java',
 							items: [
