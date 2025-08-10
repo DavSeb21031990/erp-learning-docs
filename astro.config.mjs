@@ -46,11 +46,35 @@ export default defineConfig({
 						{
 							label: 'Node.js',
 							items: [
-								{ label: 'Event Loop', slug: 'guias/node/event-loop' },
-								{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/node-lts-vs-node-current' },
-								{ label: 'Package.json', slug: 'guias/node/package' },
-								{ label: 'Node_modules', slug: 'guias/node/node-modules' }
-							]	
+								{
+									label: 'Fundamental Concepts',
+									items: [
+										{ label: 'Event Loop', slug: 'guias/node/fundamental-concepts/event-loop' },
+										{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/fundamental-concepts/node-lts-vs-node-current' },
+										{ label: 'Package.json', slug: 'guias/node/fundamental-concepts/package' },
+										{ label: 'Node_modules', slug: 'guias/node/fundamental-concepts/node-modules' }
+									]
+								},
+								{
+									label: 'Sintaxis',
+									items: [
+										{ label: 'Environment', slug: 'guias/node/sintaxis/environment' },
+										{ label: 'Management Exceptions', slug: 'guias/node/sintaxis/management-exceptions' }
+									]
+								},
+								{
+									label: 'Middlewares',
+									items: [
+										{ label: 'Introducción', slug: 'guias/node/middelware/introduction' }
+									]
+								},
+								{
+									label: 'Express',
+									items: [
+										{ label: 'Introducción', slug: 'guias/node/express/introduction' }
+									]
+								}
+							]
 						}
 					],
 				},
