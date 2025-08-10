@@ -15,6 +15,13 @@ export default defineConfig({
 					label: 'Guias',
 					items: [
 						{
+							label: 'Servidores',
+							items: [
+								{ label: 'Configuración Servidor', slug: 'guias/servers/configuration' },
+								{ label: 'Configuración SSH Keys', slug: 'guias/servers/configuration-ssh' }
+							]
+						},
+						{
 							label: 'Gestor de Versiones',
 							items: [
 								{ label: 'SDKMAN', slug: 'guias/management-versions/sdkman' },
