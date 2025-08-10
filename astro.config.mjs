@@ -25,6 +25,8 @@ export default defineConfig({
 							items: [
 								{ label: 'Maven vs Gradle', slug: 'guias/management-dependencies/maven-vs-gradle' },
 								{ label: 'Gradle Wrapper', slug: 'guias/management-dependencies/gradle-wrapper' },
+								{ label: 'Estructura Proyecto Gradle', slug: 'guias/management-dependencies/structure-project-gradle' },
+								{ label: 'Secciones de build.gradle', slug: 'guias/management-dependencies/sections-gradle' },
 							]
 						},
 						{
