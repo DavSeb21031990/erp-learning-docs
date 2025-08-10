@@ -47,7 +47,7 @@ export default defineConfig({
 							label: 'Node.js',
 							items: [
 								{ label: 'Event Loop', slug: 'guias/node/event-loop' },
-								{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/node-LTS-vs-node-current' }
+								{ label: 'Node.js LTS vs Node.js Current', slug: 'guias/node/node-lts-vs-node-current' }
 							]	
 						}
 					],
