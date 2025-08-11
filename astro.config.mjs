@@ -38,14 +38,31 @@ export default defineConfig({
 							]
 						},
 						{
-							label: 'Backend',
+							label: 'Languages',
 							items: [
 								{
 									label: 'Java',
 									items: [
-										{ label: 'Nuevas Caracteristicas', slug: 'guias/backend/java/new-features' }
+										{ label: 'Nuevas Caracteristicas', slug: 'guias/languages/java/new-features' }
 									],
 								},
+								{
+									label: 'TypeScript',
+									items: [
+										{ label: 'Introducción', slug: 'guias/languages/typescript/introduction' },
+										{ label: 'Conceptos Fundamentales', slug: 'guias/languages/typescript/fundamental-concepts' },
+										{ label: 'Objetos e Interfaces', slug: 'guias/languages/typescript/object-interface' },
+										{ label: 'Funciones', slug: 'guias/languages/typescript/function' },
+										{ label: 'Tipos Avanzados', slug: 'guias/languages/typescript/type-avanced' },
+										{ label: 'Clases', slug: 'guias/languages/typescript/class' },
+										{ label: 'Script NPM', slug: 'guias/languages/typescript/script-npm' },
+									],
+								}
+							]
+						},
+						{
+							label: 'Backend',
+							items: [
 								{
 									label: 'Node.js',
 									items: [
