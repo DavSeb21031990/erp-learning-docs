@@ -238,6 +238,50 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              label: "Infraestructura",
+              items: [
+                {
+                  label: "Containerización",
+                  items: [
+                    {
+                      label: "Docker",
+                      items: [
+                        {
+                          label: "Introducción",
+                          slug: "guias/infrastructure/containerization/docker/introduction",
+                        },
+                        {
+                          label: "Image, Container y Volume",
+                          slug: "guias/infrastructure/containerization/docker/image-container-volume",
+                        },
+                        {
+                          label: "Arquitectura y Componentes",
+                          slug: "guias/infrastructure/containerization/docker/architecture",
+                        },
+                        {
+                          label: "Configuración",
+                          slug: "guias/infrastructure/containerization/docker/configuration",
+                        },
+                        {
+                          label: "Comandos Esenciales",
+                          slug: "guias/infrastructure/containerization/docker/cheat-sheet",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  label: "Bases de Datos",
+                  items: [
+                    {
+                      label: "Conceptos Fundamentales",
+                      slug: "guias/infrastructure/database/concepts-fundamentals/introduction",
+                    },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
