@@ -3,6 +3,15 @@ title: 'Introducción'
 description: 'Introducción a Angular'
 ---
 
+## Probar App desde Local
+- Se Accede con el ide de forma remota
+- Se levanta la aplicación en el servidor remoto
+- Se abre el terminal en la máquina local
+- Se ejecuta el siguiente comando
+    ```bash
+    ssh -L 4200:localhost:4200 usuario@vps
+    ```
+
 ## Instalación `Angular CLI`
 ```bash
 npm install -g @angular/cli
@@ -25,11 +34,12 @@ ng new hello-world-angular --routing=false --style=css --skip-git
 cd hello-world-angular
 ```
 
-## Probar App desde Local
-- Se Accede con el ide de forma remota
-- Se levanta la aplicación en el servidor remoto
-- Se abre el terminal en la máquina local
-- Se ejecuta el siguiente comando
-    ```bash
-    ssh -L 4200:localhost:4200 usuario@vps
-    ```
+## Iniciar la aplicación
+```bash
+ng serve
+```
+
+## Construir la aplicación para ambiente de producción
+```bash
+ng build
+```

@@ -3,27 +3,6 @@ title: 'Introducción'
 description: 'Introducción a Vue'
 ---
 
-## Instalación de `Vue CLI`
-```bash
-npm install -g @vue/cli
-```
-
-## Verificar versión
-```bash
-vue --version
-```
-
-## Crear Proyecto Básico
-```bash
-# Crear proyecto Vue con CLI
-vue create hello-world-vue
-
-# Opciones durante la creación:
-# ❓ Please pick a preset: → Default ([Vue 3] babel, eslint)
-
-cd hello-world-vue
-```
-
 ## Probar App desde Local
 - Se Accede con el ide de forma remota
 - Se levanta la aplicación en el servidor remoto
@@ -32,3 +11,24 @@ cd hello-world-vue
     ```bash
     ssh -L 5173:localhost:5173 usuario@vps
     ```
+
+## Crear Proyecto Básico
+```bash
+# Crear proyecto Vue con Vite
+npm create vue@latest my-app
+
+# Opciones durante la creación:
+# ❓ Please pick a preset: → Default ([Vue 3] babel, eslint)
+
+cd hello-world-vue
+```
+
+## Verificar versión
+```bash
+vue --version
+```
+
+## Construir aplicación
+```bash
+vite build
+```
